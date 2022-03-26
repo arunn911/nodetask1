@@ -1,0 +1,3 @@
+POST METHOD ON THIS URL CREATE A TXT FILE ===>   https://create-txt-file.herokuapp.com
+
+GET METHOD ON THIS URL RETRIVE ALL THE FILES FROM THE FOLDER ===>   https://create-txt-file.herokuapp.com/files
