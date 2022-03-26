@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const PORT = 8080;
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Server running on ${PORT}`)
 })
 
