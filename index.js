@@ -15,7 +15,7 @@ const directoryPath = path.join(__dirname, 'public');
 
  // end point to create a text file
 
-app.get("/", (req, res) => {
+app.post("/", (req, res) => {
     // let fileName = moment(Date.now()).format('DD-hh-mm-ss')
     // let fileContent = Date.now().toString();
    try {
